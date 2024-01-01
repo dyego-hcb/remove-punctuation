@@ -1,3 +1,36 @@
+# Remoção de Pontuação em Texto com Python
+
+Este é um utilitário em Python para remover pontuação de texto em um arquivo de texto. Ele utiliza a biblioteca `string` do Python para identificar e remover sinais de pontuação.
+
+### Estrutura do Diretório
+
+- A pasta **[Código Fonte da Remoção de Pontuação](./remove-punctuation-source-code/)** contém as entradas e saídas usadas no projeto criado, bem como o código fonte em si.
+- Na pasta **[Script](./remove-punctuation-source-code/script/)**, você encontrará o código fonte do projeto.
+
+## Como Funciona
+
+O utilitário lê um arquivo de texto e remove toda a pontuação, criando um novo arquivo sem pontuação. Ele utiliza as funções `str.maketrans` e `str.translate` para realizar essa tarefa.
+
+## Como Usar
+
+Siga estes passos para remover pontuação de um arquivo de texto:
+
+1. Clone este repositório ou baixe o código fonte para o seu ambiente local.
+
+2. Modifique a variável `nome_arquivo_entrada` para especificar o caminho do seu arquivo de texto de entrada (`in.txt`).
+
+3. Modifique a variável `nome_arquivo_saida` para especificar o caminho e nome do arquivo de saída onde o texto sem pontuação será salvo.
+
+4. Execute o script Python fornecido (`remove_punctuation.py`). Este script processará o arquivo de texto de entrada, removerá a pontuação e salvará o texto limpo no arquivo de saída.
+
+5. Após a execução, o texto sem pontuação será salvo no arquivo de saída.
+
+## Por que Remover a Pontuação?
+
+Remover pontuação do texto pode ser útil em várias tarefas de processamento de linguagem natural e análise de texto, além de simplificar o texto para determinadas aplicações.
+
+***
+
 # Text Punctuation Removal with Python
 
 This is a Python utility for removing punctuation from text in a text file. It uses the Python `string` library to identify and remove punctuation marks.
